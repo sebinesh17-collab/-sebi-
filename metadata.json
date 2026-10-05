@@ -1,0 +1,6 @@
+{
+  "name": "Kabaddi Hero",
+  "description": "Kabaddi Hero by Sebinesh - Kabaddi ecosystem for tournament discovery, registration, rules, live scoring, and Gemini AI assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

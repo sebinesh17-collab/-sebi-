@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Kabaddi Hero</string>
+    <string name="app_name_en">Kabaddi Hero</string>
+    <string name="by_author">by Sebinesh</string>
+    <string name="tagline">Discover Kabaddi tournaments • Register • Play • Win</string>
+    <string name="tagline_en">Discover Kabaddi tournaments • Register • Play • Win</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_live">Live</string>
+    <string name="nav_create">Create</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_ai_chat">Kabaddi AI</string>
+    <string name="nav_rules">Rules Center</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_notifications">Notifications</string>
+
+    <!-- Actions -->
+    <string name="action_register">Register</string>
+    <string name="action_view_rules">View Rules</string>
+    <string name="action_share">Share</string>
+    <string name="action_save">Save</string>
+    <string name="action_saved">Saved</string>
+    <string name="action_call">Call Organizer</string>
+    <string name="action_whatsapp">WhatsApp Organizer</string>
+    <string name="action_directions">Get Directions</string>
+    <string name="action_report">Report Tournament</string>
+    <string name="action_check_eligibility">Check Eligibility</string>
+    <string name="action_import_poster">Import from Poster</string>
+    <string name="action_publish">Publish Tournament</string>
+    <string name="action_save_draft">Save Draft</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="action_guest_browse">Browse as Guest</string>
+    <string name="action_logout">Log Out</string>
+
+    <!-- Home Sections -->
+    <string name="section_live_kabaddi">LIVE KABADDI</string>
+    <string name="section_upcoming">Upcoming Matches</string>
+    <string name="section_nearby">Nearby Tournaments</string>
+    <string name="section_trending">Trending Tournaments</string>
+    <string name="section_today">Today</string>
+    <string name="section_tomorrow">Tomorrow</string>
+    <string name="section_this_week">This Week</string>
+    <string name="section_recently_posted">Recently Posted</string>
+
+    <!-- Verification -->
+    <string name="status_unverified">Unverified</string>
+    <string name="status_pending_review">Pending Review</string>
+    <string name="status_verified">Verified</string>
+    <string name="status_needs_correction">Needs Correction</string>
+    <string name="status_rejected">Rejected</string>
+
+    <!-- Roles -->
+    <string name="role_user">Fan / Viewer</string>
+    <string name="role_player">Player</string>
+    <string name="role_team_manager">Team Manager</string>
+    <string name="role_organizer">Organizer</string>
+    <string name="role_referee">Referee</string>
+    <string name="role_moderator">Moderator</string>
+    <string name="role_admin">Admin</string>
+
+    <!-- AI -->
+    <string name="ai_assistant_title">Kabaddi Hero AI</string>
+    <string name="ai_assistant_subtitle">Powered by Gemini with High Thinking</string>
+    <string name="ai_disclaimer">Informational guidance based on tournament rules and official Kabaddi standards.</string>
+</resources>

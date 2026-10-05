@@ -1,0 +1,48 @@
+package com.sebinesh.kabaddihero.data.model
+
+data class Tournament(
+    val tournamentId: String = "",
+    val name: String = "",
+    val description: String = "",
+    val posterUrl: String = "",
+    val organizerId: String = "",
+    val organizerName: String = "",
+    val organizerPhone: String = "",
+    val organizerWhatsapp: String = "",
+    val organizerEmail: String = "",
+    val organizationName: String = "",
+    val category: String = "Open",
+    val gender: String = "Men",
+    val ageCategory: String = "Open",
+    val weightLimitKg: Float? = 85.0f,
+    val rules: TournamentRules = TournamentRules(),
+    val date: String = "",
+    val startTime: String = "08:00 AM",
+    val endTime: String = "08:00 PM",
+    val registrationDeadline: String = "",
+    val checkInTime: String = "07:00 AM",
+    val weighInTime: String = "07:30 AM",
+    val venueName: String = "",
+    val address: String = "",
+    val village: String = "",
+    val town: String = "",
+    val taluk: String = "",
+    val district: String = "Madurai",
+    val state: String = "Tamil Nadu",
+    val latitude: Double? = 9.9252,
+    val longitude: Double? = 78.1198,
+    val directions: String = "",
+    val entryFee: Double = 500.0,
+    val prizeAmount: Double = 25000.0,
+    val prizeDescription: String = "1st: ₹25,000 + Trophy, 2nd: ₹15,000, 3rd: ₹10,000",
+    val teamLimit: Int = 32,
+    val registeredTeamCount: Int = 12,
+    val status: String = "UPCOMING", // UPCOMING, TODAY, LIVE, COMPLETED, POSTPONED, CANCELLED
+    val registrationStatus: String = "OPEN", // OPEN, CLOSED, INVITE_ONLY
+    val verificationStatus: String = "VERIFIED", // UNVERIFIED, PENDING_REVIEW, VERIFIED, NEEDS_CORRECTION, REJECTED
+    val evidencePhotos: List<String> = emptyList(),
+    val isDemo: Boolean = false,
+    val createdAt: Long = System.currentTimeMillis(),
+    val updatedAt: Long = System.currentTimeMillis(),
+    val publishedAt: Long = System.currentTimeMillis()
+)
